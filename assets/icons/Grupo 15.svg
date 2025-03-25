@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.582" height="59.582" viewBox="0 0 59.582 59.582">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-6.948" y1="1.206" x2="-6.698" y2="1.206" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4aa5"/>
+      <stop offset="1" stop-color="#ff160e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_25" data-name="Rectángulo 25" width="59.582" height="59.582" transform="translate(0 -0.001)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-0.653" y1="1.452" x2="-0.615" y2="1.452" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.009" y1="1.009" x2="0.009" y2="1.009" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_15" data-name="Grupo 15" transform="translate(0 0)">
+    <path id="Trazado_120" data-name="Trazado 120" d="M31.791,10.687V48.894a2,2,0,0,1-4,0V10.687a2,2,0,0,1,4,0" fill="url(#linear-gradient)"/>
+    <g id="Grupo_14" data-name="Grupo 14">
+      <g id="Grupo_13" data-name="Grupo 13" clip-path="url(#clip-path)">
+        <path id="Trazado_121" data-name="Trazado 121" d="M38.879,18.145H25.234a4.174,4.174,0,0,0-3.046,1.368l-1.457-1.37L22.2,19.5a5.2,5.2,0,0,0,0,6.947l-1.473,1.351,1.458-1.368a4.158,4.158,0,0,0,3.045,1.365h9.114a8.177,8.177,0,0,1,5.96,2.628l.018.019a9.2,9.2,0,0,1,0,12.353l-.016.017a8.168,8.168,0,0,1-5.962,2.629H18.875a2,2,0,0,1,0-4H34.348a4.161,4.161,0,0,0,3.045-1.366l1.459,1.368-1.475-1.351a5.2,5.2,0,0,0,0-6.947l1.475-1.352L37.4,33.159a4.177,4.177,0,0,0-3.047-1.369H25.234a8.165,8.165,0,0,1-5.962-2.628l-.015-.017a9.2,9.2,0,0,1,0-12.353l.016-.018a8.176,8.176,0,0,1,5.961-2.629H38.879a2,2,0,0,1,0,4Z" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_122" data-name="Trazado 122" d="M29.791,2.5V.5A29.291,29.291,0,1,1,.5,29.791,29.293,29.293,0,0,1,29.791.5v4A25.291,25.291,0,1,0,55.082,29.791,25.324,25.324,0,0,0,29.791,4.5Z" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>
