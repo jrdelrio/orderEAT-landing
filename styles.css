@@ -49,13 +49,15 @@ body header {
   display: flex;
   justify-content: center;
   background-color: #ffffff;
+  position: sticky;
 }
 body header img {
-  height: 59px;
+  height: 50px;
+  padding-top: 12px;
 }
 body main .contact-section {
   display: flex;
-  padding: 50px 100px;
+  padding: 15px 100px 50px 100px;
   gap: 60px;
 }
 body main .contact-section .content {
@@ -282,12 +284,13 @@ body main .schools-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 body main .schools-section .schools-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;
   justify-content: center;
 }
 body main .schools-section .schools-container .school-card {
@@ -333,7 +336,6 @@ body main .schools-section .schools-container .school-card .school-country {
 body main .success-section {
   display: flex;
   flex-direction: column;
-  background-image: url("./assets/bg-success-section.png");
   background-color: #fff5f6;
   color: #fc3553;
   text-align: center;
@@ -350,7 +352,6 @@ body main .success-section .success-container .success-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(50% - 20px);
 }
 @media (max-width: 576px) {
   body main .success-section .success-container .success-card {
@@ -372,7 +373,7 @@ body main .success-section .quotes-container {
   gap: 40px;
   justify-content: center;
   color: #2c2c2c;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 body main .success-section .quotes-container .card-quote {
   background-color: #ffffff;

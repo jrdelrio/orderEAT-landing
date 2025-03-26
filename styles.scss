@@ -64,22 +64,18 @@ body {
         display: flex;
         justify-content: center;
         background-color: $color-white;
+        position: sticky;
 
         img {
-            height: 59px;
+            height: 50px;
+            padding-top: 12px;
         }
-
-        // transition: background-color .3s;
-
-        // @container scroll-state(stuck: top) {
-        //     background-color: $color-light-red;
-        // }
     }
 
     main {
         .contact-section {
             display: flex;
-            padding: 50px 100px;
+            padding: 15px 100px 50px 100px;
             gap: 60px;
 
             .content {
@@ -346,12 +342,13 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding-bottom: 30px;
 
             .schools-container {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                gap: 40px;
+                gap: 60px;
                 justify-content: center;
 
                 .school-card {
@@ -404,7 +401,7 @@ body {
         .success-section {
             display: flex;
             flex-direction: column;
-            background-image: url("./assets/bg-success-section.png");
+            // background-image: url("./assets/bg-success-section.png");
             background-color: $color-light-red;
             color: $color-red;
             text-align: center;
@@ -421,7 +418,6 @@ body {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    width: calc(50% - 20px);
 
                     @include mobile {
                         width: 100%;
@@ -445,7 +441,7 @@ body {
                 gap: 40px;
                 justify-content: center;
                 color: $color-black;
-                padding-bottom: 20px;
+                padding-bottom: 30px;
 
                 .card-quote {
                     background-color: $color-white;
